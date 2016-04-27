@@ -9,12 +9,12 @@ markdown:           rdiscount
 
 # Navigation
 nav:
-  - name:           "Code"
-    href:           "//gfjaru.github.io/Kiko/about"
-  - name:           "UW Vision and Cognition lab"
+  - name:           "Vision and Cognition lab"
     href:           "//courses.washington.edu/viscog/index.html"
-  - name:           "Ione Fine"
-    href:           "//github.com/gfjaru/Kiko/releases"
+  - name:           "eScience Institute"
+    href:           "//escience.washington.edu"
+  - name:           "Code"
+    href:           "//github.com/uwescience/pulse2percept"
 
 # Sass
 sass:

@@ -1,44 +1,74 @@
 ---
 layout: default
 ---
+
+The University of Washington
+
 <header class="masthead">
   <h1 class="masthead-title">
     <a href="{{ site.baseurl }}/">{{ site.name }}</a>
   </h1>
 
+  <nav class="masthead-nav">
+    {% for nav in site.nav %}
+  <p><a href="{{ nav.href }}">{{ nav.name }} </p></a>
+    {% endfor %}
+  </nav>
+</header>
 <h3>What would the world look like to someone with a bionic eye?</h3>
 
 <p> More than 20 million Americans aged 18 and older have experienced vision
 loss, according to the <a
 href="http://www.afb.org/info/blindness-statistics/adults/facts-and-figures/235">American
-Foundation for the Blind</a>], and the rates of vision loss are expected to
+Foundation for the Blind</a>, and the rates of vision loss are expected to
 double by 2030 as the nation’s population ages. A variety of sight recovery
 therapies are being developed by companies around the world, offering new hope
 for people who are blind. But little is known about what the world will look
 like to patients who undergo such procedures. </p> <p> We have developed a
 computer model of what someone with restored vision might see. This computer
 model creates a ‘virtual patient’ who can give scientists and patients into the
-vision that these prostheses might provide. </p> The following videos show a
-simulation of the vision of a patient implanted with an electronic prosthesis
-like the <a
+vision that these prostheses might provide. </p>
+
+<h3>A virtual patient</h3>
+
+
+The following videos show a simulation of the vision of a patient implanted with
+an electronic prosthesis like the <a
 href="http://www.secondsight.com/g-the-argus-ii-prosthesis-system-pf-en.html">Argus
-II </a>The Argus II bionic eye system is the major electrical prosthesis
-device on the market. It uses a digital camera mounted to a pair of eyeglasses
-that sends visual data to a computer chip implanted on the side of the eye. This
-chip then activates a small array of electrodes implanted in the retina that
-stimulates retinal cells to convert that data into vision.
+II </a>The Argus II bionic eye system is the major electrical prosthesis device
+on the market. It uses a digital camera mounted to a pair of eyeglasses that
+sends visual data to a computer chip implanted on the side of the eye. This chip
+then activates a small array of electrodes implanted in the retina that
+stimulates retinal cells to convert that data into vision. </p>
+
+<div style="position: absolute; top: 950px; left: 700px;">
+  <video width="140%" height="auto" autoplay loop ><source src="./videos/girlJumpsInPool_percept_lambda6_ampmax_5.mov
+  "/> </video>
+</div>
+
+<div style="position: absolute; top: 990px; left: 300px;">
+  <video width="100%" height="auto" autoplay loop muted="muted"><source src="./videos/girlJumpsInPool.mov
+  "/> </video>
+</div>
+
+<div style="position: absolute; top: 1250px; left: 700px;">
+  <video width="140%" height="auto" autoplay loop ><source src="./videos/platformBostonT_percept_lambda6_ampmax_5.mov
+  "/> </video>
+</div>
+
+<div style="position: absolute; top: 1290px; left: 300px;">
+  <video muted="muted"  width="100%" height="auto" autoplay loop ><source src="./videos/platformBostonT.mov
+  "/> </video>
+</div>
+
+<div style="position:relative; top:650px; ">
+<p>
+The videos show that patients may see fuzzy, comet-like shapes or blurred
+outlines, or experience temporary disappearances if the object moves too fast.
+
+One goal of this project is to provide information about the quality of vision
+people can expect if they undergo sight restoration surgery. Models like these
+can also help scientists improve future implants by providing insights into
+which aspects of the technology are limiting performance.
 </p>
-
-  <video width="60%" height="auto" autoplay loop muted="muted"><source src="./videos/girlJumpsInPool.mov
-  "/> </video>
-
-
-  <video width="60%" height="auto" autoplay loop ><source src="./videos/girlJumpsInPool_percept_lambda6_ampmax_5.mov
-  "/> </video>
-
-
-  <video muted="muted" width="60%" height="auto" autoplay loop ><source src="./videos/platformBostonT.mov
-  "/> </video>
-
-  <video  width="60%" height="auto" autoplay loop ><source src="./videos/platformBostonT_percept_lambda6_ampmax_5.mov
-  "/> </video>
+</div>
