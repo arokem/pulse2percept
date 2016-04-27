@@ -2,16 +2,16 @@
 name:               "Pulse trains to percepts"
 
 # URL
-baseurl:            "http://uwescience.github.io/pulse2percept/"
+baseurl:            #"http://uwescience.github.io/pulse2percept/"
 
 # Markdown
 markdown:           rdiscount
 
 # Navigation
 nav:
-  - name:           "Vision and Cognition lab"
+  - name:           "Ione Fine and Geoff Boynton, Vision and Cognition lab"
     href:           "//courses.washington.edu/viscog/index.html"
-  - name:           "eScience Institute"
+  - name:           "Ariel Rokem, eScience Institute"
     href:           "//escience.washington.edu"
   - name:           "Code"
     href:           "//github.com/uwescience/pulse2percept"
