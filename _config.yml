@@ -2,7 +2,7 @@
 name:               "Pulse trains to percepts"
 
 # URL
-baseurl:            #"http://uwescience.github.io/pulse2percept/"
+baseurl:            "http://uwescience.github.io/pulse2percept/"
 
 # Markdown
 markdown:           rdiscount
