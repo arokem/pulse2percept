@@ -1,0 +1,36 @@
+# Basic
+name:               "Pulse trains to percepts"
+
+# URL
+baseurl:            ""
+
+# Markdown
+markdown:           rdiscount
+
+# Navigation
+nav:
+  - name:           "Code"
+    href:           "//gfjaru.github.io/Kiko/about"
+  - name:           "UW Vision and Cognition lab"
+    href:           "//courses.washington.edu/viscog/index.html"
+  - name:           "Ione Fine"
+    href:           "//github.com/gfjaru/Kiko/releases"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
