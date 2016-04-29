@@ -13,7 +13,7 @@ nav:
     href:           "//courses.washington.edu/viscog/index.html"
   - name:           "Ariel Rokem, eScience Institute"
     href:           "//escience.washington.edu"
-  - name:           "Code"
+  - name:           "Open source software: http://github.com/uwescience/pulse2percept"
     href:           "//github.com/uwescience/pulse2percept"
 
 # Sass
